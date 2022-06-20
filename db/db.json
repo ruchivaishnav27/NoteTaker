@@ -1,6 +1,42 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title":"First Note",
+        "text":"Learn HTML"
+    },
+    {
+        "title":"Second Note",
+        "text":"Add CSS"
+    },
+    {
+        "title":"Third Note",
+        "text":"Include some JavaScript"
+    },
+    {
+        "title":"Fourth Note",
+        "text":"Introduce Web APIs"
+    },
+    {
+        "title":"Fifth Note",
+        "text":"Learn about Third-Party APIs"
+    },
+    {
+        "title":"Sixth Note",
+        "text":"Learn about Server-Side APIs"
+    },
+    {
+        "title":"Seventh Note",
+        "text":"Put it all together"
+    },
+    {
+        "title":"Eighth Note",
+        "text":"Present your work"
+    },
+    {
+        "title":"Ninth Note",
+        "text":"Start learning Back End with Node.js"
+    },
+    {
+        "title":"Tenth Note",
+        "text":"Learn about Object-Oriented Programming"
     }
 ]
