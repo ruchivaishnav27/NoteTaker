@@ -31,12 +31,12 @@ module.exports = app => {
             res.sendFile(path.join(notes, "./notes.html"));
         });
 
-        app,get('*', function(req, res) {
+        app.get('*', function(req, res) {
             res.sendFile(path.join(notes, "./index.html"));
         });
 
         function updateDB() {
-            fs.writeFile("db/db.json", JSON.stringify(notes, '/t'), err => {
+            fs.writeFile("./db/db.json", JSON.stringify(notes, '/t'), err => {
                 if (err) throw err;
                 return true;
             });
