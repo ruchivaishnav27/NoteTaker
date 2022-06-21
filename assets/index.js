@@ -1,8 +1,8 @@
-var $noteTitle = $('.note-title');
-var $noteText = $('.note-textarea');
-var $saveNoteBtn = $('.save-note');;
-var $newNoteBtn = $('.new-note');
-var $noteList = $('.list-container .list-group');
+const $noteTitle = document.querySelector('#note-title');
+const $noteText = document.querySelector('#note-textarea');
+const $saveNoteBtn = document.querySelector('#save-note');
+const $newNoteBtn = document.querySelector('#new-note');
+const $noteList = document.querySelector('#list-container');
 
 var activateNote = {};
 
@@ -99,7 +99,7 @@ var renderNoteList = function(notes) {
     var note = notes[i];
     var $li = $("<li class = 'list-group-item'>").data(note);
     var $span = $("<span>").text(note.title);
-    var $delBtn = $(<i class = 'fas fa-trash-alt float-right text-danger delete-note'></i>);
+    //var $delBtn = $(<i class = 'fas fa-trash-alt float-right text-danger delete-note'></i>);
     $li.append($span, $delBtn);
     noteListItems.push($li);
   }
