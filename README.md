@@ -1,16 +1,16 @@
-# NoteTaker
+# Take A Note
 
 ## Description
 
-This application allows one to take notes using Express.js.  No challenges were faced in creating this application.  In the future, I would like to make this application look a little more attractive.
+This application allows one to take notes and save them using Express.js.  No challenges were faced in creating this application.  In the future, I would like to make this application look a little more attractive.
 
 ## Installation
 
-To use this application, one must first install Express.js, then they can follow along using this live link: 
+To use this application, one must first install Express.js.  They can then follow along using this link: 
 
 ## Usage
 
-One can use this application to take notes in a technical way.
+One can use this application to take and save notes in a technical way.
 
 ## Credits
 
