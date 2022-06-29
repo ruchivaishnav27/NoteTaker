@@ -6,7 +6,7 @@ This application allows one to take notes and save them using Express.js.  No ch
 
 ## Installation
 
-To use this application, one must first install Express.js.  They can then follow along using this link: 
+To use this application, one must first install Express.js.  They can then follow along using this link: https://ruchivaishnav27.github.io/NoteTaker/
 
 ## Usage
 
